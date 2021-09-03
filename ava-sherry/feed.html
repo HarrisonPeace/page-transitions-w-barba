@@ -9,7 +9,7 @@
     <link href="_base.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="feed">
     <header>
       <h1>Ava Sherry</h1>
       <p>Portfolio</p>
@@ -21,7 +21,8 @@
       </nav>
     </header>
 
-    <section class="feed">
+    <main data-barba="wrapper">
+      <section data-barba="container" data-barba-namespace="feed" class="feed">
       <img src="image2.jpg">
       <img src="image3.jpg">
       <img src="image4.jpg">
@@ -32,6 +33,7 @@
       <img src="image9.jpg">
       <img src="image10.jpg">
     </section>
+    </main>
 
     <footer>
       <p>Modern art photographer, based in New York. Open for commissions. All rights reserved.</p>
@@ -43,5 +45,10 @@
         <a href="https://twitter.com/superhi_">Twitter</a>
       </nav>
     </footer>
+
+    <script src="barba.js"></script>
+    <script src="barba-css.js"></script>
+    <script src="scripts.js"></script>
+
   </body>
 </html>
